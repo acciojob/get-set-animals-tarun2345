@@ -9,7 +9,7 @@ class Animal {
         return this.species;
     }
     makeSound(str){
-        console.log(str);
+        console.log(this.str);
     }
 }
 
