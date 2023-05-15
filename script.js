@@ -4,8 +4,12 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
+
+    get species(){
+        return this.species;
+    }
     makeSound(){
-        console.log("bow");
+        console.log("The Siamese makes a sound");
     }
 }
 
