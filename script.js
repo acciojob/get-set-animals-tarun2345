@@ -8,8 +8,8 @@ class Animal {
     get species(){
         return this.species;
     }
-    makeSound(str){
-        console.log(this.str);
+    makeSound(){
+        console.log("The "+this.species+" makes a sound");
     }
 }
 
